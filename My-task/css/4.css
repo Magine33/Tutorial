@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+#body1{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 200px;
+	margin-left: -200px;
+	margin-top: -100px;
+	background-color: #ccc;
+	overflow: hidden;
+}
+#left{
+	border-radius: 50px 50px 50px 50px;
+	background-color: #fc0;
+	padding: 50px;
+	width: 0px;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+#right{
+	border-radius: 50px 50px 50px 50px;
+	background-color: #fc0;
+	padding: 50px;
+	width: 0px;
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+}
